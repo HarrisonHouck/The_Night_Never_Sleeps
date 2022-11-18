@@ -12,10 +12,12 @@
     {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":4,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
+    {"id":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},"order":6,},
     {"id":{"name":"spr_light_cone","path":"sprites/spr_light_cone/spr_light_cone.yy",},"order":2,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":3,},
     {"id":{"name":"spr_background_test","path":"sprites/spr_background_test/spr_background_test.yy",},"order":0,},
+    {"id":{"name":"spr_pickup","path":"sprites/spr_pickup/spr_pickup.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

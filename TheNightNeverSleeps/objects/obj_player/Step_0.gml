@@ -13,3 +13,7 @@ if (keyboard_check(vk_right) and !instance_place(x+5, y, obj_wall)) {
 	image_xscale = 1
 	x += 5
 }
+
+if(global.pickups = 4){
+	//spawn the boss and text
+}

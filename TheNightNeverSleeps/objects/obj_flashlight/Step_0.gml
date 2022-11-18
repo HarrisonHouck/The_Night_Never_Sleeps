@@ -1,21 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+// moving light testing
+// image_angle=point_direction(x,y,mouse_x,mouse_y)
 
-image_angle=point_direction(x,y,mouse_x,mouse_y)
-
-if(keyboard_check(vk_left)){
-x-=5
-}
-if(keyboard_check(vk_right)){
-x+=5
-}
-if(keyboard_check(vk_down)){
-y+=5
-}
-if(keyboard_check(vk_up)){
-y-=5
-}
-
+x=attach.x
+y=attach.y
+image_angle = attach.image_angle
 if(surface_exists(flashlightSurface)){
 surface_set_target(flashlightSurface)
 draw_clear_alpha(c_black,0)
@@ -38,4 +26,3 @@ surface_set_target(global.flashlights)
 draw_surface(flashlightSurface,0,0)
 surface_reset_target()
 }
-

@@ -1,5 +1,5 @@
 # The_Night_Never_Sleeps
-Neo-noir top down game. You hide evidence from a murder so you and your crime family don't get caught. 
+Neo-noir top down game. You hide evidence of a murder from the authorities so you and your crime family don't get caught. 
 
 
 TITLE:
@@ -14,8 +14,8 @@ The Night Never Sleeps
  Harrison Houck - Producer
 
 
-CHEAT CODES:
-
-
-
 RULES:
+Navigate the top down level, avoiding the police and their flaslight beams; which representing their vision cones. If you get spotted, the patrol will come after you.
+
+
+CHEAT CODES:

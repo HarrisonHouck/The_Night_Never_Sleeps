@@ -1,6 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
 
+x = attach.x
+y = attach.y
+image_angle = attach.image_angle
 if(surface_exists(flashlightSurface)){
 surface_set_target(flashlightSurface)
 draw_clear_alpha(c_black,0)

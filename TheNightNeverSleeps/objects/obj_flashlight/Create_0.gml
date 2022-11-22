@@ -5,5 +5,4 @@ surface_set_target(flashlightSurface)
 draw_clear_alpha(c_black,0)
 surface_reset_target()
 
-
-
+attach = instance_nearest(other.x, other.y, obj_enemy)

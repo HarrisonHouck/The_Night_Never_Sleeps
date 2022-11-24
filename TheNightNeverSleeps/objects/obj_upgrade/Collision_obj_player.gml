@@ -9,4 +9,5 @@ draw_text_color(other.x,other.y-10,"Swap to "+upgradeType+" implant",c_yellow,c_
 }
 if(keyboard_check(ord("E"))){
 instance_destroy()
+global.clues+=1
 }

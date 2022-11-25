@@ -1,6 +1,8 @@
 if(detected){
 	if(!instance_exists(obj_detect)){
 		instance_create_layer(obj_player.x, obj_player.y, "instances", obj_detect)
+		detectedAngle = image_angle
+		
 	}
 	if(instance_exists(obj_detect)){
 		path_end()
@@ -13,19 +15,28 @@ if(detected){
 			//sweep flashlight
 			sweep = true
 			if(sweep){
-				angle += 3
-				image_angle = clamp(image_angle+angle, direction-45, direction+45)
-				// this makes it stuck at 45 degrees rn.. 
+				if(image_angle = direction+90 +45){
+					for(i=0; i<45; i++){
+						image_angle-=2
+					}
+				}
+				if(image_angle = direction + 45){
+					for(i=0; i<45; i++){
+						image_angle+=2
+					}
+				}
+				
 			}
 		}
 	}
 	//return to path if nothing is found
 	//change from 10 later, 10 is instant 20 is like a fine time :))
 	
-	///*
+	/*
 	if(current_second - detected_time >=  10){
+		sweep = false
 		global.detect = false
-		detected = false
+		detected = fals
 		hsp = 1
 		mp_potential_step_object(path_positionprevious.x, path_positionprevious.y, hsp, obj_wall)
 		old_path = path_positionprevious
@@ -36,7 +47,7 @@ if(detected){
 		}
 		
 	}
-	//*/
+	*/
 	
 }
 if(!sweep){

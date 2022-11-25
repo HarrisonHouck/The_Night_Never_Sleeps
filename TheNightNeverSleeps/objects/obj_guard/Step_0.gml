@@ -1,0 +1,48 @@
+
+if(state=="patroling"){
+	if(path_index==-1 and x!=lastPatrolX and y!=lastPatrolY){
+		mp_potential_step_object(lastPatrolX,lastPatrolY,patrolSpeed,obj_wall)
+	}
+	if(path_index==-1 and x==lastPatrolX and y==lastPatrolY){
+		path_start(walk_path,patrolSpeed,path_action_restart,true)
+		path_position=lastPathPos
+	}
+	if(instance_exists(obj_detect)){
+		if(distance_to_object(obj_detect)<1500){
+			path_end()
+			state="pursuing"
+		}
+	}
+	if(path_index!=-1){
+	lastPatrolX=x
+	lastPatrolY=y
+	lastPathPos=path_position
+	}
+}
+if(state=="pursuing"){
+	mp_potential_step_object(obj_detect.x,obj_detect.y,patrolSpeed*1.5,obj_wall)
+}
+if(state=="seeking"){
+	if(alarm_get(0)==-1){
+	alarm_set(0,210)
+	lookAng=image_angle
+	}
+	if(alarm_get(0)>0){
+		if(image_angle==lookAng){
+		lookAng=irandom_range(image_angle+145,image_angle+215)
+		}
+		image_angle+=3
+	}
+}
+if(state=="fighting"){
+	if(path_index!=-1){
+		path_end()
+	}
+	if(distance_to_object(obj_player)<100){
+		if(!instance_exists(obj_baton)){
+		instance_create_layer(x,y,"instances",obj_baton)
+		}
+		alarm_set(1,60*irandom_range(0.7,1.5))
+	}
+	mp_potential_step_object(obj_detect.x,obj_detect.y,patrolSpeed*2,obj_wall)
+}

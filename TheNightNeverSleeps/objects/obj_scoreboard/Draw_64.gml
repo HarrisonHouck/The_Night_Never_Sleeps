@@ -9,5 +9,4 @@ if(instance_exists(obj_player)){
 		global.detectvalue = 0
 	}
 	draw_text(8, 48, "Clues Picked-Up: " + string(global.clues))
-	draw_text(40, 40, "angle: " +string(global.angle))
 }

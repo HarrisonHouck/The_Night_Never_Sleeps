@@ -19,6 +19,7 @@
   "For3D": false,
   "width": 316,
   "height": 150,
+
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",

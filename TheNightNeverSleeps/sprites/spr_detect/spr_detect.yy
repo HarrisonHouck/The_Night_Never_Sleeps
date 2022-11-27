@@ -1,3 +1,4 @@
+
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",

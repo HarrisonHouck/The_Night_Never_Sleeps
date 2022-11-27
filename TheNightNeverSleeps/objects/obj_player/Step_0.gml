@@ -15,4 +15,13 @@ if(keyboard_check(ord("W"))){
 y-=5*speed_mod*stealth_speed_mod
 }
 
-
+if(mouse_check_button_pressed(mb_left)){
+	if(instance_exists(obj_enemy)){
+		closestEnemy = instance_nearest(x, y, obj_enemy)
+		imgangleMultiplyer = abs(obj_player.image_angle - closestEnemy.image_angle) + 180
+		if(distance_to_object(obj_enemy) <= 50  and imgangleMultiplyer <= 210){
+			position_destroy(mouse_x, mouse_y)
+		}
+	}
+	
+}

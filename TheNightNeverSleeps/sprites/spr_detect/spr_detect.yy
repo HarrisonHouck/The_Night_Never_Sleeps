@@ -1,3 +1,4 @@
+
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
@@ -17,7 +18,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 25,
   "height": 25,
   "textureGroupId": {

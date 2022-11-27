@@ -2,7 +2,6 @@ if(detected){
 	if(!instance_exists(obj_detect)){
 		instance_create_layer(obj_player.x, obj_player.y, "instances", obj_detect)
 		detectedAngle = image_angle
-		
 	}
 	if(instance_exists(obj_detect)){
 		path_end()
@@ -48,7 +47,6 @@ if(detected){
 		
 	}
 	*/
-	
 }
 if(!sweep){
 	image_angle = direction + 90

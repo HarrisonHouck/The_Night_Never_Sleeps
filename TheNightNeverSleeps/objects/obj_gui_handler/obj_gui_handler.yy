@@ -1,13 +1,9 @@
-
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_detect",
-  "spriteId": {
-    "name": "spr_detect",
-    "path": "sprites/spr_detect/spr_detect.yy",
-  },
-  "solid": true,
+  "name": "obj_gui_handler",
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -25,12 +21,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-
 }

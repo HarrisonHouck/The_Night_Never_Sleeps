@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-x=xprevious
-y=yprevious
-
-
+if(state!="seeking"){
+image_angle=point_direction(xprevious,yprevious,x,y)	
+}

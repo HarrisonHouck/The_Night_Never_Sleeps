@@ -3,7 +3,7 @@
 //try splitting the trapezoid into 4 triangles 
 
 draw_set_color(c_white)
-center_ang=point_direction(obj_player.x,obj_player.y+1000,centerX,centerY)
+center_ang=point_direction(view_get_xport(0)+683,view_get_yport(0)+1384,centerX,centerY)
 
 
 center_farX=centerX+lengthdir_x(room_width,center_ang)

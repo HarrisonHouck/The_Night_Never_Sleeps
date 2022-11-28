@@ -1,23 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 image_angle=point_direction(x,y,mouse_x,mouse_y)
-if(!keyboard_check(ord("A")) and !keyboard_check(ord("D")) and !keyboard_check(ord("S")) and !keyboard_check(ord("W"))){
-	sprite_index = 0
+if(keyboard_check(ord("A"))or keyboard_check(ord("W"))or keyboard_check(ord("S"))or keyboard_check(ord("D"))){
+sprite_index=spr_player
 }
 else{
-	if(keyboard_check(ord("A"))){
-		x-=5*speed_mod*stealth_speed_mod
-	}
-	if(keyboard_check(ord("D"))){
-		x+=5*speed_mod*stealth_speed_mod
-	}
-	if(keyboard_check(ord("S"))){
-		y+=5*speed_mod*stealth_speed_mod
-	}
-	if(keyboard_check(ord("W"))){
-		y-=5*speed_mod*stealth_speed_mod
-	}
+sprite_index=spr_still_player
 }
+if(keyboard_check(ord("A"))){
+x-=5*speed_mod*stealth_speed_mod
+}
+if(keyboard_check(ord("D"))){
+x+=5*speed_mod*stealth_speed_mod
+}
+if(keyboard_check(ord("S"))){
+y+=5*speed_mod*stealth_speed_mod
+
 
 if(mouse_check_button_pressed(mb_left)){
 	if(instance_exists(obj_guard)){

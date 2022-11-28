@@ -1,8 +1,12 @@
+
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_scoreboard",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_gui_background_slant",
+    "path": "sprites/spr_gui_background_slant/spr_gui_background_slant.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,8 +28,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":18,"eventType":5,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

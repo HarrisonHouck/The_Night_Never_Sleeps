@@ -1,3 +1,4 @@
+
 {
   "resourceType": "GMPath",
   "resourceVersion": "1.0",

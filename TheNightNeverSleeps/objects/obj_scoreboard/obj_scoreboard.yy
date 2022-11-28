@@ -1,12 +1,8 @@
-
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_scoreboard",
-  "spriteId": {
-    "name": "spr_gui_background_slant",
-    "path": "sprites/spr_gui_background_slant/spr_gui_background_slant.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

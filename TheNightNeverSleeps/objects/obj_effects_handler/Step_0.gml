@@ -1,4 +1,3 @@
-
 if(surface_exists(global.flashlights)){
 surface_set_target(global.flashlights)
 draw_clear_alpha(c_black,0)

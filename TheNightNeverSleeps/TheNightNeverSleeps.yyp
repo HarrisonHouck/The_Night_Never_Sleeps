@@ -34,6 +34,7 @@
     {"id":{"name":"spr_stealth_mod","path":"sprites/spr_stealth_mod/spr_stealth_mod.yy",},"order":5,},
     {"id":{"name":"obj_guard","path":"objects/obj_guard/obj_guard.yy",},"order":8,},
     {"id":{"name":"walk_path1","path":"paths/walk_path1/walk_path1.yy",},"order":0,},
+    {"id":{"name":"obj_effects_handler","path":"objects/obj_effects_handler/obj_effects_handler.yy",},"order":12,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -6,7 +6,7 @@
     "name": "spr_boss",
     "path": "sprites/spr_boss/spr_boss.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

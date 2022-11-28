@@ -53,3 +53,9 @@ if(state=="fighting"){
 	mp_potential_step_object(obj_detect.x,obj_detect.y,patrolSpeed*2,obj_wall)
 	}
 }
+if(state != "patroling"){
+	global.detect = true
+}
+if(state == "patroling"){
+	global.detect = false
+}

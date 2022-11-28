@@ -7,7 +7,7 @@
     "path": "sprites/spr_light_cone/spr_light_cone.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

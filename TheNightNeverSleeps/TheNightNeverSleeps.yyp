@@ -4,6 +4,7 @@
   "name": "TheNightNeverSleeps",
   "resources": [
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":7,},
+    {"id":{"name":"spr_lives","path":"sprites/spr_lives/spr_lives.yy",},"order":13,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":6,},
     {"id":{"name":"obj_gui_handler","path":"objects/obj_gui_handler/obj_gui_handler.yy",},"order":4,},
     {"id":{"name":"obj_lighting_handler","path":"objects/obj_lighting_handler/obj_lighting_handler.yy",},"order":0,},

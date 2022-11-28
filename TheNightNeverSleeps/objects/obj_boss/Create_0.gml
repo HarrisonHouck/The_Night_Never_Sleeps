@@ -1,0 +1,1 @@
+instance_create_layer(450, 190, "Text", obj_textbox)

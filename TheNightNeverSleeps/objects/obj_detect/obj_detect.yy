@@ -1,4 +1,3 @@
-
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
@@ -8,7 +7,7 @@
     "path": "sprites/spr_detect/spr_detect.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -32,5 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-
 }

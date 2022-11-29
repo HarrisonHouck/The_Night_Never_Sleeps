@@ -1,0 +1,1 @@
+global.clues += 1

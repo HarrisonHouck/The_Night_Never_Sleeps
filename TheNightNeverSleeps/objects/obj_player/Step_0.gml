@@ -6,7 +6,7 @@ if(keyboard_check(ord("A"))or keyboard_check(ord("W"))or keyboard_check(ord("S")
 	sprite_index = spr_player
 }
 else{
-	
+	sprite_index = 4
 }
 	if(keyboard_check(ord("A"))){
 		x-=5*speed_mod*stealth_speed_mod
@@ -43,4 +43,7 @@ if(mouse_check_button_pressed(mb_left)){
 		}
 	}
 	
+}
+if(global.lives == 0){
+	instance_destroy()
 }

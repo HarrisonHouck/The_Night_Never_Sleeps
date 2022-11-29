@@ -44,6 +44,6 @@ if(mouse_check_button_pressed(mb_left)){
 	}
 	
 }
-if(global.lives == 0){
+if(global.lives <= 0){
 	instance_destroy()
 }

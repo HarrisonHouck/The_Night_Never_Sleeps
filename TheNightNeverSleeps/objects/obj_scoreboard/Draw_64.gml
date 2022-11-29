@@ -7,7 +7,7 @@ if(instance_exists(obj_player)){
 	draw_healthbar(8, 40, 160, 70, global.alert, c_black, c_red, c_red, 0, true, true)
 	draw_text_transformed(170, 16, "Clues: " + string(global.clues),1.25,1.25,0)
 	for(i=0; i<global.lives; i++){
-		draw_sprite(spr_lives, 0, (24 +32 *i), 84)
+		draw_sprite(spr_lives, 0, (24 +40 *i), 92)
 	}
 	
 }

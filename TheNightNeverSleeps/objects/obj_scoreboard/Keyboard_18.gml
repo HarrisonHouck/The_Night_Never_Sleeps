@@ -12,3 +12,6 @@ if(keyboard_check_pressed(ord("B"))){
 		instance_create_layer(obj_player.x, obj_player.y-100, "Instances", obj_boss)
 	}
 }
+if(keyboard_check_pressed(ord("N"))){
+	room_goto(6)
+}

@@ -44,6 +44,8 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"spr_background_test","path":"sprites/spr_background_test/spr_background_test.yy",},"order":0,},
     {"id":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},"order":10,},
+    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":17,},
+    {"id":{"name":"obj_win","path":"objects/obj_win/obj_win.yy",},"order":18,},
     {"id":{"name":"spr_stealth_mod","path":"sprites/spr_stealth_mod/spr_stealth_mod.yy",},"order":5,},
     {"id":{"name":"obj_guard","path":"objects/obj_guard/obj_guard.yy",},"order":8,},
     {"id":{"name":"walk_path1","path":"paths/walk_path1/walk_path1.yy",},"order":0,},

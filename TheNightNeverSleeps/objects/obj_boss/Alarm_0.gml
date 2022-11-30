@@ -1,1 +1,0 @@
-global.lives-=1

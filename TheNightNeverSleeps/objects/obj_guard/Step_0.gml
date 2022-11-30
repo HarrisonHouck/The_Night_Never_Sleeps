@@ -46,7 +46,7 @@ if(state=="fighting"){
 	if(distance_to_object(obj_player)<50 and canTaze==true){
 		instance_create_layer(x,y,"instances",obj_baton,{startAng: image_angle})
 		canTaze=false
-		alarm_set(1,60)
+		alarm_set(1,120)
 	}
 	if(instance_exists(obj_detect)){
 	mp_potential_step_object(obj_detect.x,obj_detect.y,patrolSpeed*2,obj_wall)

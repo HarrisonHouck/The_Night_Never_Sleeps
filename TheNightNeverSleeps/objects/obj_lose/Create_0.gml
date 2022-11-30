@@ -8,7 +8,7 @@ op_space = 32
 
 option[0] = "You have been caught"
 option[1] = ""
-option[2] = "Press Alt+G to Restart"
+option[2] = ""
 option[3] = "or Return to Main Menu"
 
 pos = option[3];

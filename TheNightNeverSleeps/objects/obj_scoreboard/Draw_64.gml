@@ -12,5 +12,5 @@ if(instance_exists(obj_player)){
 	
 }
 if(global.gameover){
-	draw_text(room_width/2, room_height/2, "You Died.. Press Alt+G to Restart")
+	room_goto(7)
 }

@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "TheNightNeverSleeps",
   "resources": [
+    {"id":{"name":"spr_lose","path":"sprites/spr_lose/spr_lose.yy",},"order":18,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":7,},
     {"id":{"name":"spr_lives","path":"sprites/spr_lives/spr_lives.yy",},"order":13,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":6,},
@@ -18,6 +19,7 @@
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":11,},
     {"id":{"name":"spr_pickup","path":"sprites/spr_pickup/spr_pickup.yy",},"order":16,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},"order":7,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":11,},
     {"id":{"name":"obj_baton","path":"objects/obj_baton/obj_baton.yy",},"order":9,},
     {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},"order":1,},
@@ -38,6 +40,7 @@
     {"id":{"name":"spr_building","path":"sprites/spr_building/spr_building.yy",},"order":10,},
     {"id":{"name":"spr_baton","path":"sprites/spr_baton/spr_baton.yy",},"order":9,},
     {"id":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},"order":5,},
+    {"id":{"name":"obj_lose","path":"objects/obj_lose/obj_lose.yy",},"order":19,},
     {"id":{"name":"spr_stamina_mod","path":"sprites/spr_stamina_mod/spr_stamina_mod.yy",},"order":6,},
     {"id":{"name":"obj_upgrade","path":"objects/obj_upgrade/obj_upgrade.yy",},"order":5,},
     {"id":{"name":"spr_light_cone","path":"sprites/spr_light_cone/spr_light_cone.yy",},"order":2,},
@@ -53,9 +56,9 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
-    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "defaultScriptType": 1,
   "isEcma": false,
@@ -71,6 +74,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"WinRoom","path":"rooms/WinRoom/WinRoom.yy",},},
+    {"roomId":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -96,6 +100,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.11.0.54",
   },
 }

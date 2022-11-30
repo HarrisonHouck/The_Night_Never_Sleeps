@@ -12,16 +12,6 @@ farLX=center_farX-sprite_width*xz_ratio/2
 farRX=center_farX+sprite_width*xz_ratio/2
 farBY=center_farY+sprite_height*yz_ratio/2
 farTY=center_farY-sprite_height*yz_ratio/2
-/*z
-BL_farX=Lx+lengthdir_x(room_width,center_ang)
-BR_farX=Rx+lengthdir_x(room_width,center_ang)
-TL_farX=Lx+lengthdir_x(room_width,center_ang)
-TR_farX=Rx+lengthdir_x(room_width,center_ang)
-BL_farY=By+lengthdir_y(room_width,center_ang)
-BR_farY=By+lengthdir_y(room_width,center_ang)
-TL_farY=Ty+lengthdir_y(room_width,center_ang)
-TR_farY=Ty+lengthdir_y(room_width,center_ang)
-*/
 draw_line(obj_player.x,obj_player.y,centerX,centerY)
 draw_line(centerX,centerY,center_farX,center_farY)
 draw_line(Lx,Ty,farLX,farTY)

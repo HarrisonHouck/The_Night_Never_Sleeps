@@ -1,6 +1,5 @@
 if(instance_exists(obj_player)){
 ToAng = point_direction(x, y, obj_player.x, obj_player.y)
-}
 if(ToAng>image_angle){
 	direction += 3
 }if(ToAng<image_angle){
@@ -18,4 +17,5 @@ if(disttoplayer <= 5 and (image_angle>ToAng-20 and image_angle<ToAng+20)){
 		global.lives -=1
 		audio_play_sound(snd_playerhurt, 1, 0)
 	}
+}
 }

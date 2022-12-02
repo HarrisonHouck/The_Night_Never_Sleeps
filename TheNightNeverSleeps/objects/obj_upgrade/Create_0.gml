@@ -6,12 +6,14 @@ if(upgradeType="Speed"){
 	
 	sprite_index=spr_speed_mod
 	speed_mod=1.5
+	stamina_mod=-1
 }
 if(upgradeType="Stealth"){
 	sprite_index=spr_stealth_mod
 	stealth_mod=true
+	stamina_mod=-1
 }
 if(upgradeType="Stamina"){
 	sprite_index=spr_stamina_mod
-	stamina_mod=0.5
+	stamina_mod=1
 }

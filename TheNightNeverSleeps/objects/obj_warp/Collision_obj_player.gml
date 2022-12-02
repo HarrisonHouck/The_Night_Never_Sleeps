@@ -1,15 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(other.x==bbox_left){
-other.x=bbox_right+32	
+if(sprite_width<sprite_height){
+if(obj_player.x<=bbox_left){
+global.ToY=obj_player.y
+global.ToX=32
+warp=true
 }
-if(other.x==bbox_right){
-other.x=bbox_left-32	
+else{
+global.ToY=obj_player.y
+global.ToX=room_width-32	
+warp=true
 }
-if(other.y==bbox_top){
-other.y=bbox_bottom+32	
 }
-if(other.y==bbox_bottom){
-other.y=bbox_top-32	
+else{
+if(obj_player.y<=bbox_top){
+global.ToX=obj_player.x
+global.ToY=32
+warp=true
 }
-room_goto(roomTo)
+else{
+global.ToX=obj_player.x
+global.ToY=room_height-32
+warp=true
+}
+}

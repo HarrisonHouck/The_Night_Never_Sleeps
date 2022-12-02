@@ -43,6 +43,9 @@ if(state=="seeking"){
 	}
 }
 if(state=="fighting"){
+	if(!instance_exists(obj_detect)){
+		state="patroling"
+	}
 	if(path_index!=-1){
 		path_end()
 	}
@@ -55,9 +58,7 @@ if(state=="fighting"){
 		alarm_set(1,60)
 	}
 	}
-	else{
-	state="patroling"	
-	}
+
 }
 if(state != "patroling"){
 	global.detect = true

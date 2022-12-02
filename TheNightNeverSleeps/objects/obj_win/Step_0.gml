@@ -8,3 +8,6 @@ pos = option[3]
 if(accept_key){
 	room_goto(0)
 }
+if(instance_exists(obj_player)){
+	instance_destroy(obj_player)
+}

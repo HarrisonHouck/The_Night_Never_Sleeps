@@ -4,7 +4,6 @@ if(state=="patroling"){
 		mp_potential_step_object(lastPatrolX,lastPatrolY,patrolSpeed,obj_wall)
 	}
 	if(path_index==-1 and x==lastPatrolX and y==lastPatrolY){
-		mp_potential_step_object(obj_detect.x,obj_detect.y,patrolSpeed*2,obj_wall)
 		path_start(walk_path,patrolSpeed,path_action_restart,true)
 		path_position=lastPathPos
 	}

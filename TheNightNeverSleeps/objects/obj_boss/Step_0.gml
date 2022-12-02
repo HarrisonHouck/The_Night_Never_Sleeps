@@ -1,4 +1,6 @@
+if(instance_exists(obj_player)){
 ToAng = point_direction(x, y, obj_player.x, obj_player.y)
+}
 if(ToAng>image_angle){
 	direction += 3
 }if(ToAng<image_angle){

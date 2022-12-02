@@ -2,9 +2,9 @@
   "resourceType": "GMPath",
   "resourceVersion": "1.0",
   "name": "walk_path9",
-  "kind": 1,
+  "kind": 0,
   "closed": true,
-  "precision": 4,
+  "precision": 3,
   "points": [
     {"speed":100.0,"x":1632.0,"y":1088.0,},
     {"speed":100.0,"x":1408.0,"y":1408.0,},

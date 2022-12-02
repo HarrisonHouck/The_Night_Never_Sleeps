@@ -4,6 +4,7 @@ if(state=="patroling"){
 		mp_potential_step_object(lastPatrolX,lastPatrolY,patrolSpeed,obj_wall)
 	}
 	if(path_index==-1 and x==lastPatrolX and y==lastPatrolY){
+		mp_potential_step_object(obj_detect.x,obj_detect.y,patrolSpeed*2,obj_wall)
 		path_start(walk_path,patrolSpeed,path_action_restart,true)
 		path_position=lastPathPos
 	}
@@ -56,7 +57,7 @@ if(state=="fighting"){
 	if(distance_to_object(obj_player)<50 and canTaze==true){
 		instance_create_layer(x,y,"instances",obj_baton,{startAng: image_angle})
 		canTaze=false
-		alarm_set(1,60)
+		alarm_set(1,120)
 	}
 	}
 

@@ -4,13 +4,9 @@ image_angle=point_direction(x,y,mouse_x,mouse_y)
 if(keyboard_check(ord("A"))or keyboard_check(ord("W"))or keyboard_check(ord("S"))or keyboard_check(ord("D"))){
 	
 	sprite_index = spr_player
-	if(!audio_is_playing(snd_footsteps)){
-		audio_play_sound(snd_footsteps, 6, 0)
-	}
 }
 else{
 	image_index=0
-	audio_pause_sound(snd_footsteps)
 }
 	if(keyboard_check(ord("A"))){
 		x-=5*speed_mod*stealth_speed_mod

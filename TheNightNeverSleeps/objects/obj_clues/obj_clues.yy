@@ -1,4 +1,3 @@
-
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",

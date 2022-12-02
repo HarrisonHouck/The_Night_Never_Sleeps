@@ -15,5 +15,7 @@ if(upgradeType="Stealth"){
 }
 if(upgradeType="Stamina"){
 	sprite_index=spr_stamina_mod
-	stamina_mod=1
+	if(global.lives <= 5){
+		stamina_mod=1
+	}
 }

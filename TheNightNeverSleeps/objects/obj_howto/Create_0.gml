@@ -1,7 +1,7 @@
 width = 457
 height = 606
 
-op_border = -100
+op_border = 0
 op_space = 32
 
 

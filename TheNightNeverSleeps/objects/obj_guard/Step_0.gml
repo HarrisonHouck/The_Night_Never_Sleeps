@@ -20,6 +20,7 @@ if(state=="patroling"){
 	}
 }
 if(state=="pursuing"){
+	alarm_set(2, 30)
 	if(!instance_exists(obj_detect)){
 		state="patroling"	
 	}

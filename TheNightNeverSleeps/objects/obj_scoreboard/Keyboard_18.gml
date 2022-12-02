@@ -11,7 +11,7 @@ if(keyboard_check_pressed(ord("L")))
 
 if(keyboard_check_pressed(ord("B"))){
 	if(!instance_exists(obj_boss)){
-		instance_create_layer(obj_player.x, obj_player.y-100, "Instances", obj_boss)
+		instance_create_layer(obj_player.x, obj_player.y-150, "Instances", obj_boss)
 	}
 }
 if(keyboard_check_pressed(ord("N")))

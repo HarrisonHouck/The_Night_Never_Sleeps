@@ -1,3 +1,4 @@
+
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
@@ -35,4 +36,5 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
+
 }

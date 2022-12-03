@@ -1,4 +1,4 @@
-if(global.clues = 6){
-	instance_create_layer(obj_boss_spawn.x, obj_boss_spawn.y, "Instances", obj_boss)
-	
+if(global.lives == 0){
+	instance_destroy()
+	room_goto(8)
 }

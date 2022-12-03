@@ -51,6 +51,7 @@ if(mouse_check_button_pressed(mb_left)){
 	}
 	
 }
-if(global.lives == 0){
+
+if(room = WinRoom or room = loseroom){
 	instance_destroy()
 }

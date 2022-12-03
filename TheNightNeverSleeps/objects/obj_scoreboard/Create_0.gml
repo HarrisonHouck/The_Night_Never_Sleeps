@@ -5,4 +5,4 @@ global.alert=100
 global.steathy=false
 global.ToX=00
 global.ToY=00
-global.bosshealth = 4
+global.bosshealth = 5

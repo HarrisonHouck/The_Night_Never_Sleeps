@@ -37,13 +37,13 @@ if(mouse_check_button_pressed(mb_left)){
 	}
 	if(instance_exists(obj_boss)){
 		closestbEnemy = instance_nearest(x, y, obj_boss)
-		//if(distance_to_object(closestbEnemy) <= 50){
+		if(distance_to_object(closestbEnemy) <= 50){
 			audio_play_sound(snd_knifestab, 5, 0)
 			global.bosshealth -=1
 			audio_play_sound(snd_bossdies, 2, 0)
 			if(global.bosshealth == 0){
 				instance_destroy(obj_boss)
-			//}
+			}
 		}
 	}
 	else{

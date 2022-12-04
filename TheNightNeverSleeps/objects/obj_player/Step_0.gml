@@ -34,6 +34,9 @@ if(mouse_check_button_pressed(mb_left)){
 			instance_destroy(closestFlash)
 			audio_play_sound(snd_knifestab, 5, 0)
 		}
+		else{
+			audio_play_sound(snd_swoosh, 3, 0)
+		}
 	}
 	if(instance_exists(obj_boss)){
 		closestbEnemy = instance_nearest(x, y, obj_boss)
@@ -45,10 +48,11 @@ if(mouse_check_button_pressed(mb_left)){
 				instance_destroy(obj_boss)
 			}
 		}
+		else{
+			audio_play_sound(snd_swoosh, 3, 0)
+		}
 	}
-	else{
-		audio_play_sound(snd_swoosh, 3, 0)
-	}
+	
 	
 }
 

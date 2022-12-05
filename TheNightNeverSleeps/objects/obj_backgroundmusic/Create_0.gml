@@ -1,2 +1,2 @@
 
-foundList = ds_list_create();
+global.foundList = ds_list_create();

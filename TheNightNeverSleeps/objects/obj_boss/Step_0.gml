@@ -1,6 +1,7 @@
+
+	mp_potential_step_object(x, y, hsp, obj_wall)
 if(instance_exists(obj_player)){
 	ToAng = point_direction(x, y, obj_player.x, obj_player.y)
-	mp_potential_step_object(x, y, hsp, obj_wall)
 if(ToAng>image_angle){
 	direction += 3
 }

@@ -18,4 +18,4 @@ if(keyboard_check_pressed(ord("B"))){
 	}
 }
 if(keyboard_check_pressed(ord("N")))
-	room_goto(9)
+	global.clues += 1
